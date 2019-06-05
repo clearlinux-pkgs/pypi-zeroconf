@@ -1,2 +1,4 @@
 # This file contains recursive sources that require this package
+home-assistant
+ironic-lib
 netdisco
