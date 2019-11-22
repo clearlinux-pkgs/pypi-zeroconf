@@ -1,5 +1,5 @@
 PKG_NAME := zeroconf
-URL = https://files.pythonhosted.org/packages/d7/25/8bbdd4857820e0cdc380c7e0c3543dc01a55247a1d831c712571783e74ec/zeroconf-0.23.0.tar.gz
+URL = https://files.pythonhosted.org/packages/35/1a/63df0e17b10f55d5e352048705ba6d4a2a8afb622914441b98b6f966743f/zeroconf-0.24.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
