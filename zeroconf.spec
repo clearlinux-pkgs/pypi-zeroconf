@@ -4,7 +4,7 @@
 #
 Name     : zeroconf
 Version  : 0.26.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/d1/fc/adab674bf986b6db84fc976ee4921460eb9c9334c8c475abcc55169e8711/zeroconf-0.26.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d1/fc/adab674bf986b6db84fc976ee4921460eb9c9334c8c475abcc55169e8711/zeroconf-0.26.0.tar.gz
 Summary  : Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
@@ -14,10 +14,8 @@ Requires: zeroconf-license = %{version}-%{release}
 Requires: zeroconf-python = %{version}-%{release}
 Requires: zeroconf-python3 = %{version}-%{release}
 Requires: ifaddr
-Requires: typing
 BuildRequires : buildreq-distutils3
 BuildRequires : ifaddr
-BuildRequires : typing
 
 %description
 ===============
@@ -59,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588008381
+export SOURCE_DATE_EPOCH=1588360165
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
