@@ -4,7 +4,7 @@
 #
 Name     : zeroconf
 Version  : 0.28.5
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/c3/00/6b0544eafd482064b401dd30a114fffb8e20ca1790a8a29aa9bc5d26a7dc/zeroconf-0.28.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/00/6b0544eafd482064b401dd30a114fffb8e20ca1790a8a29aa9bc5d26a7dc/zeroconf-0.28.5.tar.gz
 Summary  : Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
