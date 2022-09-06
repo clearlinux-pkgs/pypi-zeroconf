@@ -1,5 +1,5 @@
 PKG_NAME := pypi-zeroconf
-URL = https://files.pythonhosted.org/packages/2b/a5/0ad52f3dd265fd2538b882eb6682eaeee12d2ba4dd55a20ac65374bbf67d/zeroconf-0.39.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ef/e4/a43283a5dc0ad6dd1f1094a02ad40cb17623b589b86991fd997e5627efe9/zeroconf-0.39.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
