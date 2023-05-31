@@ -5,7 +5,7 @@
 #
 Name     : pypi-zeroconf
 Version  : 0.63.0
-Release  : 101
+Release  : 102
 URL      : https://files.pythonhosted.org/packages/46/64/f3f55dc5dba216ce9d20062b6fe5862e49a63b7ecce1c941388618f89224/zeroconf-0.63.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/46/64/f3f55dc5dba216ce9d20062b6fe5862e49a63b7ecce1c941388618f89224/zeroconf-0.63.0.tar.gz
 Summary  : A pure python implementation of multicast DNS service discovery
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685027969
+export SOURCE_DATE_EPOCH=1685545992
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
