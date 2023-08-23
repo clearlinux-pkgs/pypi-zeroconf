@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-zeroconf
-Version  : 0.80.0
-Release  : 116
-URL      : https://files.pythonhosted.org/packages/37/a7/3c14ac9b077d91b2fd1949955d9d916b4dad429940801ff6a3430d44f7e5/zeroconf-0.80.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/37/a7/3c14ac9b077d91b2fd1949955d9d916b4dad429940801ff6a3430d44f7e5/zeroconf-0.80.0.tar.gz
+Version  : 0.82.1
+Release  : 117
+URL      : https://files.pythonhosted.org/packages/d9/a8/4eb75d4a602392906ee42bf2b8adc582af1cc3771fce73c50c9f4c173d07/zeroconf-0.82.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/d9/a8/4eb75d4a602392906ee42bf2b8adc582af1cc3771fce73c50c9f4c173d07/zeroconf-0.82.1.tar.gz
 Summary  : A pure python implementation of multicast DNS service discovery
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -58,10 +58,10 @@ python3 components for the pypi-zeroconf package.
 
 
 %prep
-%setup -q -n zeroconf-0.80.0
-cd %{_builddir}/zeroconf-0.80.0
+%setup -q -n zeroconf-0.82.1
+cd %{_builddir}/zeroconf-0.82.1
 pushd ..
-cp -a zeroconf-0.80.0 buildavx2
+cp -a zeroconf-0.82.1 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692201147
+export SOURCE_DATE_EPOCH=1692834589
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
